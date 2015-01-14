@@ -1,0 +1,90 @@
+/*
+Autor = Diego Rodríguez Suárez-Bustillo
+Fecha = 19-dic-2014
+Licencia = gpl30
+Version = 1.0
+Descripcion = 
+*/
+
+/*
+Copyright (C) 2014 Diego Rodríguez Suárez-Bustillo
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+*/
+
+*{padding: 0; margin: 0;}
+
+#wrap{
+    margin: 0 auto;
+    max-width: 700px;
+    text-align: center;
+    /*border: solid 1px;*/
+}
+
+body{
+    background: #FAFAFA;
+    /*background : #262626;*/
+}
+body, select{
+    text-align: center;
+    color: #212121;
+    font-family: "Roboto",sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+.color{
+    display:inline-block;
+    margin: 10px;
+    border: solid 1px gray;
+    padding: 5px;
+    border-radius: 15px;
+    box-shadow:5px 5px 1px 1px rgba(0,0,0,0.2);
+    background: #F5F5F5;
+}
+.color:hover{
+    text-decoration: underline;
+}
+.hex{
+    background: #B7CAED;
+    height: 100px;
+    width: 100px;
+    border-radius: 15px;
+    box-shadow:0px 5px 1px rgba(255,255,255,0.1) inset;	
+}
+.name{
+    width: 100px;
+    padding-top: 5px;
+}
+.field{
+    margin: 0 auto;
+}
+
+select{
+    margin: 25px 0;
+}
+
+#contenedor{
+    margin-bottom: 100px;
+}
+.box{
+    width: 140px;
+    height: 140px;
+    display:inline-block;
+    margin: 0;
+}
+.box:first-child{border-radius: 15px 0 0 15px;}
+.box:last-child{border-radius: 0 15px 15px 0;}
+
+
+

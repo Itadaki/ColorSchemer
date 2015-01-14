@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+Autor = Diego Rodríguez Suárez-Bustillo
+Fecha = 19-dic-2014
+Licencia = gpl30 
+Version = 1.0
+Descripcion = 
+-->
+
+<!--
+Copyright (C) 2014 Diego Rodríguez Suárez-Bustillo
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.
+-->
+
+<html>
+    <head>
+        <title>ColorSchemer</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="style.css" rel="stylesheet" />
+        <link href='http://fonts.googleapis.com/css?family=Roboto:100,300,400' rel='stylesheet' type='text/css'>
+        <script type="text/javascript" src="script.js"></script>
+    </head>
+    <body>
+        <div id="wrap">
+            <select id="selector" onchange="setColors()"></select>
+            <div id="contenedor">
+            </div>
+            <div id="boxes">
+                <div class="box" style="background-color: red"></div><div class="box" style="background-color: red"></div><div class="box" style="background-color: red"></div><div class="box" style="background-color: red"></div><div class="box" style="background-color: red"></div>
+            </div>
+        </div>
+    </body>
+</html>
